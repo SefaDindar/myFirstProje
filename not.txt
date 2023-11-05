@@ -1,0 +1,30 @@
+git init ---->
+
+içinde bulunduğumuz klasör içinde .git şeklinde bir tane gizli klasör oluşturuyor ve içinde çeşitli ayarlar bulunuyor commitler, pushlar yapabiliyor ve o projemizin içinde o kalasörümüzün içinde tüm git işevlerini kullanabiliyoruz.
+
+(master) olur bu ise bir dirençtir.
+
+git status ----> klasör içersinde yapmış olduğumuz, depolama alanınımızdaki henüz aktarmağım dosyaları henüz aktarmadığım gösteriyor. committed yapılmayanları gösterir.
+depolama alanımızdaki değişikliklerimiz görürüz.
+
+git add <file.adı> şeklinde depolama alanını ekliyoruz.
+
+git add . ---> toplu gönderip commitlememye hazır oluyor klasörümüzdekiler.
+
+git commit --m "açıklamamız" --> bu şekilde commitlenir.
+
+git log ---> commitleri listeler.
+
+git log --oneline ---> tek satır halinde daha öz bilgi verir.
+
+silineni geri getirmek için bir değişiklik yapmak için yanlış işlemler için commit id numarasını alıp 
+git checkout <id> -- . ---> 
+bütün dosyalar ile itibaren geri dönüş yapılır.
+
+git diff ---> dosyada yapmış olduğum değişiklik gösterilir.
+
+git diff <dosya adı> ---> sadece o dosyadaki değişikliği göstericek. 
+
+git checkout --<dosyadı> --> yapılan değişikliği geri almak için kullanılır.
+
+
